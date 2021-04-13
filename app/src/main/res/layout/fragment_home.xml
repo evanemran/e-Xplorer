@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <LinearLayout
+                android:id="@+id/linearImage"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ic_image"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                </ImageView>
+                <TextView
+                    android:text="Images"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearVideos"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ic_play"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                </ImageView>
+                <TextView
+                    android:text="Videos"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearMusic"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ic_music"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                </ImageView>
+                <TextView
+                    android:text="Musics"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearRec"
+                android:visibility="visible"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ic_recording"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                </ImageView>
+                <TextView
+                    android:text="Recordings"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <LinearLayout
+                android:id="@+id/linearDocs"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ic_docs"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                </ImageView>
+                <TextView
+                    android:text="Docs"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearDownloads"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ic_downloads"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                </ImageView>
+                <TextView
+                    android:text="Downloads"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearApk"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ic_android"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                </ImageView>
+                <TextView
+                    android:text="APKs"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearZip"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ic_zip"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                </ImageView>
+                <TextView
+                    android:text="Zips"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/green">
+
+        </View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Recents:"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/green">
+        </TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_recents"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>

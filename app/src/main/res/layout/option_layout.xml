@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imgOption"
+        android:src="@drawable/ic_details"
+        android:padding="8dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/txtOption"
+        android:text="COpy"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+    </TextView>
+
+</LinearLayout>
